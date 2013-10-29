@@ -1,0 +1,65 @@
+
+<p:RDF
+    xmlns:p="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="https://www.thegazette.co.uk/def/church#"
+    xmlns:j.2="https://www.thegazette.co.uk/def/legislation#"
+    xmlns:j.1="http://xmlns.com/foaf/0.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:j.3="https://www.thegazette.co.uk/def/publication#"
+    xmlns:j.5="https://www.thegazette.co.uk/def/insolvency#"
+    xmlns:j.4="http://www.w3.org/ns/prov#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <p:Description p:about="https://www.thegazette.co.uk/id/edition/London/issue/60671">
+    <p:type p:resource="https://www.thegazette.co.uk/def/publication#Issue"/>
+    <j.3:hasEdition p:resource="https://www.thegazette.co.uk/id/edition/London"/>
+    <j.3:hasIssueNumber p:datatype="http://www.w3.org/2001/XMLSchema#string">60671</j.3:hasIssueNumber>
+  </p:Description>
+  <p:Description p:about="https://www.thegazette.co.uk/id/edition/London">
+    <p:type p:resource="https://www.thegazette.co.uk/def/publication#Edition"/>
+  </p:Description>
+  <p:Description p:about="https://www.thegazette.co.uk/id/notice/L-60671-1929560#notifiableThing">
+    <j.5:hasAdministrator p:resource="https://www.thegazette.co.uk/id/notice/L-60671-1929560#administrator-1-PersonName-1"/>
+    <j.3:relatedLegislation p:resource="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/76"/>
+    <p:type p:resource="https://www.thegazette.co.uk/def/church#PlaceOfMarriage"/>
+    <p:type p:resource="https://www.thegazette.co.uk/def/publication#NotifiableThing"/>
+    <j.3:hasAuthority p:resource="https://www.thegazette.co.uk/id/notice/L-60671-1929560#authority-1"/>
+    <j.3:relatedLegislation p:resource="http://www.legislation.gov.uk/id/ukpga/Eliz2/6-7/29"/>
+    <j.3:relatedDate>2013-10-24</j.3:relatedDate>
+    <j.3:relatedDate>2013-10-16</j.3:relatedDate>
+    <j.3:relatedDate>2013-10-29</j.3:relatedDate>
+  </p:Description>
+  <p:Description p:about="https://www.thegazette.co.uk/id/notice/L-60671-1929560#administrator-1-PersonName-1">
+    <p:type p:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <j.1:firstName>Gillian</j.1:firstName>
+    <j.1:familyName>Richards</j.1:familyName>
+  </p:Description>
+  <p:Description p:about="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/76">
+    <p:type p:resource="https://www.thegazette.co.uk/def/legislation#Legislation"/>
+    <rdfs:label>Marriage Act 1949</rdfs:label>
+  </p:Description>
+  <p:Description p:about="http://www.legislation.gov.uk/id/ukpga/Eliz2/6-7/29">
+    <p:type p:resource="https://www.thegazette.co.uk/def/legislation#Legislation"/>
+    <rdfs:label>Marriage Acts Amendment Act 1958</rdfs:label>
+  </p:Description>
+  <p:Description p:about="https://www.thegazette.co.uk/id/notice/L-60671-1929560">
+    <j.3:hasNoticeCode p:datatype="http://www.w3.org/2001/XMLSchema#integer">1302</j.3:hasNoticeCode>
+    <j.4:alternateOf p:resource="http://www.london-gazette.co.uk/id/issues/60671/notices/1929560"/>
+    <p:type p:resource="https://www.thegazette.co.uk/def/church#PlaceOfMarriageNotice"/>
+    <j.3:hasEdition>London</j.3:hasEdition>
+    <owl:sameAs p:resource="https://www.thegazette.co.uk/id/edition/London/issue/60671/notice/1929560"/>
+    <j.3:hasNoticeNumber p:datatype="http://www.w3.org/2001/XMLSchema#integer">1929560</j.3:hasNoticeNumber>
+    <j.3:isAbout p:resource="https://www.thegazette.co.uk/id/notice/L-60671-1929560#notifiableThing"/>
+    <j.3:hasNoticeID>L-60671-1929560</j.3:hasNoticeID>
+    <p:type p:resource="https://www.thegazette.co.uk/def/publication#Notice"/>
+    <j.3:isInIssue p:resource="https://www.thegazette.co.uk/id/edition/London/issue/60671"/>
+    <j.4:has_provenance p:resource="https://www.thegazette.co.uk/id/notice/L-60671-1929560/provenance"/>
+    <dc:publisher>TSO (The Stationery Office), St Crispins, Duke Street, Norwich, NR3 1PD, 01603 622211, customer.services@tso.co.uk</dc:publisher>
+    <j.3:hasPublicationDate p:datatype="http://www.w3.org/2001/XMLSchema#date">2013-10-29</j.3:hasPublicationDate>
+    <j.4:has_anchor p:resource="https://www.thegazette.co.uk/id/notice/L-60671-1929560"/>
+  </p:Description>
+  <p:Description p:about="https://www.thegazette.co.uk/id/notice/L-60671-1929560#authority-1">
+    <p:type p:resource="https://www.thegazette.co.uk/def/publication#Authority"/>
+    <rdfs:label>Sheffield City Council</rdfs:label>
+  </p:Description>
+</p:RDF>
