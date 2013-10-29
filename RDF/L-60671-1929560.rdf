@@ -1,4 +1,3 @@
-
 <p:RDF
     xmlns:p="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:j.0="https://www.thegazette.co.uk/def/church#"
@@ -20,7 +19,7 @@
   </p:Description>
   <p:Description p:about="https://www.thegazette.co.uk/id/notice/L-60671-1929560#notifiableThing">
     <j.5:hasAdministrator p:resource="https://www.thegazette.co.uk/id/notice/L-60671-1929560#administrator-1-PersonName-1"/>
-    <j.3:relatedLegislation p:resource="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/76"/>
+    <j.3:relatedLegislation p:resource="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/75"/>
     <p:type p:resource="https://www.thegazette.co.uk/def/church#PlaceOfMarriage"/>
     <p:type p:resource="https://www.thegazette.co.uk/def/publication#NotifiableThing"/>
     <j.3:hasAuthority p:resource="https://www.thegazette.co.uk/id/notice/L-60671-1929560#authority-1"/>
